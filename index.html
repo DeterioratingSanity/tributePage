@@ -1,76 +1,44 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<style>
-*{
-  margin: 0;
-}
-#scroll{
-  height: 100%;
-  width: 160vw;
-  overflow-y:hidden;
-  overflow-x: auto;
-  background-color: grey;
-  display: flex;
-  align-items: center;
-}
-.point{
-  content: '';
-  display: inline-block;
-  width: 5vmin;
-  height: 5vmin;
-  background-color: white;
-  border-radius: 50%;
-  vertical-align: middle;
-  padding: 5vw;
-  margin: 4vw;
-}
-#textBox{
-  position: fixed;
-  max-width: 80vw;
-  left: 10vw;
-  top: 80%;
-  text-align: center;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div id="scroll">
-<span class="point">
-</span>
+  <p id="head">Isambard Kingdom Brunel<br><br><span id="subhead">Right, Brunel in front of the launching chains of SS Great Eastern<br><br>Read more at <a href="https://www.rmg.co.uk/stories/topics/who-was-isambard-kingdom-brunel">the Royal Museum</a>.</span></p>
+  <span id="title">
+    <img src="brunel.jpg" alt="Isambard K Brunel, Pictured in front of a large chain.">
+  </span>
 
-<span class="point">
-</span>
+  <span class="point" id="point1">1806
+  </span>
 
-<span class="point">
-</span>
+  <span class="point"  id="point2">1822
+  </span>
 
-<span class="point">
-</span>
+  <span class="point"  id="point3">1831
+  </span>
 
-<span class="point">
-</span>
+  <span class="point"  id="point4">1833
+  </span>
 
-<span class="point">
-</span>
+  <span class="point"  id="point5">1838
+  </span>
 
-<span class="point">
-</span>
+  <span class="point"  id="point6">1852
+  </span>
 
-<span class="point">
-</span>
+  <span class="point"  id="point7">1859
+  </span>
 
-<div id="textBox">
+  <span class="point"  id="point8">1864
+  </span>
+
+  <p id="textBox">
+    A man who built a lot, a lot of which lasted for a bit, and he wore a neat hat while he did it all. Archetypal Victorian-adjacent inventor, and set a high bar.
+  </p>
+
 </div>
-
-</div>
-<script>
-
-$('.point').click(function(){
-	$('.point').css('background-color','white');
-	$(this).css('background-color','green');
-})
-
-$('.point:nth-child(3)').css('background-color','red');
+<script src="script.js">
 
 </script>
 

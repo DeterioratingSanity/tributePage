@@ -11,16 +11,15 @@
   padding-left:5vw;
 }
 .point{
-  display: inline-block;
+  display: block;
   width: 5vmin;
   height: 5vmin;
   background-color: #70615d;
   border-radius: 50%;
-  vertical-align: middle;
   padding: 4.5vw;
-  margin: .5vw;
+  margin: 2vw;
   color:#FDF8F2;
-  font-size:1.5em;
+  font-size:2em;
   cursor: pointer;
 }
 
@@ -52,6 +51,13 @@ img{
   font-size:1.1em;
   left:50%;
   transform: translate(-50%);
+}
+.rim{
+  display: inline-block;
+  position: relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 a{

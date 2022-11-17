@@ -1,6 +1,10 @@
 *{
   margin: 0;
 }
+*::selection{
+  background: #419418;
+  color: #ffffff;
+}
 #scroll{
   height: 100%;
   min-width: 160vw;
